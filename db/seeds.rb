@@ -6,12 +6,15 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-actor = Actor.new({ first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock" })
-actor.save
+# actor = Actor.new({ first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock" })
+# actor.save
 
-10.times do
-  first_name = FFaker::Name.first_name
-  last_name = FFaker::Name.last_name
-  known_for = FFaker::Movie.title
-  Actor.create(first_name: first_name, last_name: last_name, known_for: known_for)
-end
+# 10.times do
+#   first_name = FFaker::Name.first_name
+#   last_name = FFaker::Name.last_name
+#   known_for = FFaker::Movie.title
+#   Actor.create(first_name: first_name, last_name: last_name, known_for: known_for)
+# end
+
+Movie.create(title: "Belle", year: 2014, plot: "Dido Elizabeth Belle lives in 18th century England in a wealthy household as an illegtimate mixed-race daughter of a British admiral. Casual racism ensues. But she gets a white man in the end.")
+Movie.create(title: "Elizabeth", year: 1998, plot: "After becoming queen on England, Elizabeth learns, to her great disappointment, that there are, in fact, worse dangers than her barren Catholic sister.")
