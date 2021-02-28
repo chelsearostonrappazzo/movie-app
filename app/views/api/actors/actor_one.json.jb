@@ -1,5 +1,0 @@
-{
-  first_name: @actor_one.first_name,
-  last_name: @actor_one.last_name,
-  known_for: @actor_one.known_for,
-}
