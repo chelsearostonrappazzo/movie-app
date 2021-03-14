@@ -16,5 +16,17 @@
 #   Actor.create(first_name: first_name, last_name: last_name, known_for: known_for)
 # end
 
-Movie.create(title: "Belle", year: 2014, plot: "Dido Elizabeth Belle lives in 18th century England in a wealthy household as an illegtimate mixed-race daughter of a British admiral. Casual racism ensues. But she gets a white man in the end.")
-Movie.create(title: "Elizabeth", year: 1998, plot: "After becoming queen on England, Elizabeth learns, to her great disappointment, that there are, in fact, worse dangers than her barren Catholic sister.")
+# Movie.create(title: "Belle", year: 2014, plot: "Dido Elizabeth Belle lives in 18th century England in a wealthy household as an illegtimate mixed-race daughter of a British admiral. Casual racism ensues. But she gets a white man in the end.")
+# Movie.create(title: "Elizabeth", year: 1998, plot: "After becoming queen on England, Elizabeth learns, to her great disappointment, that there are, in fact, worse dangers than her barren Catholic sister.")
+
+# MovieGenre.create(genre_id: 1, movie_id: 2)
+# MovieGenre.create(genre_id: 1, movie_id: 3)
+# MovieGenre.create(genre_id: 1, movie_id: 4)
+# MovieGenre.create(genre_id: 1, movie_id: 5)
+# MovieGenre.create(genre_id: 2, movie_id: 5)
+# MovieGenre.create(genre_id: 3, movie_id: 1)
+# MovieGenre.create(genre_id: 3, movie_id: 2)
+# MovieGenre.create(genre_id: 3, movie_id: 3)
+# MovieGenre.create(genre_id: 3, movie_id: 5)
+# MovieGenre.create(genre_id: 4, movie_id: 1)
+# MovieGenre.create(genre_id: 4, movie_id: 2)
