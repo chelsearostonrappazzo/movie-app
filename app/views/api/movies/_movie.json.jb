@@ -1,8 +1,10 @@
 {
+  id: movie.id,
   title: movie.title,
   year: movie.year,
   plot: movie.plot,
   director: movie.director,
   english: movie.english,
   genres: movie.genre_names,
+  image: movie.image,
 }

@@ -1,8 +1,8 @@
 class Api::MoviesController < ApplicationController
-  before_action :authenticate_admin, except: [:index, :show]
+  # before_action :authenticate_admin, except: [:index, :show]
 
   def index
-    @movies = Movie.where(english: :true)
+    @movies = Movie.all
     render "index.json.jb"
   end
 
@@ -19,6 +19,7 @@ class Api::MoviesController < ApplicationController
       plot: params[:plot],
       director: params[:director],
       english: params[:english],
+      image: params[:image],
 
     )
     #happy/sad path
@@ -38,6 +39,7 @@ class Api::MoviesController < ApplicationController
     @movie.plot = params[:plot] || @movie.plot
     @movie.director = params[:director] || @movie.director
     @movie.english = params[:english] || @movie.english
+    @movie.image = params[:image] || @movie.image
 
     #happy/sad path
     if @movie.save
