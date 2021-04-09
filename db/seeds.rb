@@ -30,3 +30,7 @@
 # MovieGenre.create(genre_id: 3, movie_id: 5)
 # MovieGenre.create(genre_id: 4, movie_id: 1)
 # MovieGenre.create(genre_id: 4, movie_id: 2)
+
+# Comment.create(movie_id: 1, user_id: 2, comment: "Always makes me squee!")
+# Comment.create(movie_id: 2, user_id: 2, comment: "Love this movie!")
+# Comment.create(movie_id: 1, user_id: 1, comment: "No one acts like this!!")

@@ -7,4 +7,5 @@
   english: movie.english,
   genres: movie.genre_names,
   image: movie.image,
+  comments: movie.comments,
 }
