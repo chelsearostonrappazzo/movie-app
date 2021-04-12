@@ -20,11 +20,11 @@
 #   { name: "Fantasy" },
 # ])
 Actor.create!([
-  { first_name: "Christian", last_name: "Bale", known_for: "Howl's Moving Castle", gender: "M", age: 47, movie_id: 5 },
-  { first_name: "Brendan", last_name: "Fraser", known_for: "The Mummy", gender: "M", age: 52, movie_id: 2 },
-  { first_name: "Gugu", last_name: "Mbatha-Raw", known_for: "Belle", gender: "F", age: 37, movie_id: 4 },
-  { first_name: "Cate", last_name: "Blanchett", known_for: "Elizabeth", gender: "F", age: 51, movie_id: 3 },
-  { first_name: "Nicole", last_name: "Kidman", known_for: "Moulin Rouge", gender: "F", age: 53 },
+  # { first_name: "Christian", last_name: "Bale", known_for: "Howl's Moving Castle", gender: "M", age: 47, movie_id: 5 },
+  # { first_name: "Brendan", last_name: "Fraser", known_for: "The Mummy", gender: "M", age: 52, movie_id: 2 },
+  # { first_name: "Gugu", last_name: "Mbatha-Raw", known_for: "Belle", gender: "F", age: 37, movie_id: 4 },
+  # { first_name: "Cate", last_name: "Blanchett", known_for: "Elizabeth", gender: "F", age: 51, movie_id: 3 },
+  { first_name: "Nicole", last_name: "Kidman", known_for: "Moulin Rouge", gender: "F", age: 53, movie_id: 1 },
 ])
 MovieGenre.create!([
   { genre_id: 1, movie_id: 2 },
